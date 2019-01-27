@@ -1,0 +1,22 @@
+{
+  "name": "api_challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge to write an API endpoint that accepts a GitHub ID and returns Follower GitHub ID’s.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweeden/api_challenge.git"
+  },
+  "author": "Terrance Weeden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tweeden/api_challenge/issues"
+  },
+  "homepage": "https://github.com/tweeden/api_challenge#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
