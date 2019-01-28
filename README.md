@@ -1,2 +1,11 @@
 # api_challenge
-Coding challenge to write an API endpoint that accepts a GitHub ID and returns Follower GitHub ID’s.
+
+npm install
+
+type live-server in terminal to startup server 
+
+Project will run on port 127.0.1:8080
+
+Enter a github user name (example - tweeden) and hit search and the app will retrieve name, github id repos and url.
+
+Postman for testing api
