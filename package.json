@@ -4,7 +4,7 @@
   "description": "Coding challenge to write an API endpoint that accepts a GitHub ID and returns Follower GitHub ID’s.",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node js/app"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/tweeden/api_challenge#readme",
   "dependencies": {
+    "express": "^4.16.4",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
     "bootstrap": "^4.2.1",
-    "express": "^4.16.4"
+    "eslint": "^5.12.1",
+    "node-sass": "^4.11.0"
   }
 }
